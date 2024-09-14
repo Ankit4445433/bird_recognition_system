@@ -1,0 +1,114 @@
+/* *{
+    box-sizing: border-box;
+}
+body{
+    /* background-color:#131720;
+    font-family: Arial, Helvetica, sans-serif;
+    font-;
+} */
+     /* Set background properties */
+     background-image: url('danphe.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+     background-size: cover; /* Adjust background size to cover the entire screen */
+     background-repeat: no-repeat; /* Do not repeat the background image */
+     margin: 0; /* Remove default margin to fill the entire viewport */
+     padding: 0; /* Remove default padding */
+     font-family: 'Arial', sans-serif; /* Optional: Set a default font */
+ }
+/*
+h3{
+    color: aliceblue;
+}
+
+.navbar {
+    overflow: visible;
+    color: aliceblue;
+    padding: 10px;
+
+}
+
+.navbar a {
+   float: left;
+   display: block;
+   color: aliceblue;
+   padding: 10px;
+   text-transform: none;
+   text-decoration: none;
+   text-align: center;
+   font-size: xx-large;
+}
+
+button {
+    float: right;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+    border-radius: 40%;
+    background: black;
+    color: aliceblue;
+    font-style: bold;
+}
+/* Text{
+    float: center;
+} */
+/*.uploadButton{
+    float: left;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+     border-radius: 40%; 
+    background: black;
+    color: aliceblue;
+    font-style: bold;    
+}
+*/
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#upload {
+    display: none; /* Hide the default file input appearance */
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#upload:hover {
+    background-color: #2980b9;
+}
+
+#image-container {
+    max-width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+ 
